@@ -1,0 +1,43 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700');
+
+$gray: #F4F4F4;
+
+.answer{
+  background-color: #FFFEE1;
+}
+
+.container {
+  width: 300px;
+  height: 500px;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cards {
+  padding-left: 15px;
+  .person {
+    font-style: italic;
+  }
+}
+
+.user-answer {
+  font-style: bold;
+}
+
+.question, .answer {
+  border-left: 6px solid gray;
+  padding: 3px 10px;
+  margin-bottom: 10px;
+}
+
+#box {
+  width: 60%;
+  padding: 8px;
+}
+
+#submit {
+  font-size: 20px;
+}
